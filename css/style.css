@@ -1,0 +1,93 @@
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/card.css");
+
+
+a{
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;;
+	font-size: 20px;
+}
+
+a:hover{
+	background-color: #797F06;
+}
+body {
+	background-color: #E6E6E6;
+}
+
+#resources {
+	text-align: left;
+	margin-top: 30px;
+	font-size: 40px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+@media (max-width: 960px) {
+
+  .container {
+    width: 700px;
+    text-align: center;
+  }
+  .banner {
+  	width: 700px;
+  	text-align: center;
+  }
+  .container h2 {
+  	width: 700px;
+  	text-align: center;
+  }
+  .avatar {
+  	width: 700px;
+  	text-align: center;
+  }
+  #resources {
+  	text-align: center;
+  }
+}
+@media (max-width: 720px) {
+  
+  .container {
+    width: 500px;
+    text-align: center;
+  }
+  .banner {
+  	width: 500px;
+  	text-align: center;
+  }
+  .container h2 {
+  	width: 500px;
+  	text-align: center;
+  }
+  .avatar {
+  	width: 500px;
+  	text-align: center;
+  }
+  #resources {
+  	text-align: center;
+  }
+}
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+    text-align: center;
+  }
+  .banner {
+  	width: 300px;
+  	text-align: center;
+  }
+  .container h2{
+  	width: 300px;
+  	text-align: center;
+  }
+  .avatar {
+  	width: 300px;
+  	text-align: center;
+  }
+  #resources {
+  	text-align: center;
+  }
+}

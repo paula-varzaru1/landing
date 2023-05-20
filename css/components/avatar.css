@@ -1,0 +1,29 @@
+.avatar {
+  text-align: center;
+  width: 700px;
+  margin: 0 auto 20px;
+}
+
+.avatar img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 40px;
+}
+
+.avatar h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Karla', sans-serif;
+  margin-top: 15px;
+}
+
+.avatar p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
